@@ -39,7 +39,7 @@ module.exports = {
       options: {
         commonmark: true,
         plugins: [
-          
+          `gatsby-remark-set-default-frontmatter`,
         ],
       },
     },
